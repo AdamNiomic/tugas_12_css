@@ -1,0 +1,52 @@
+header {
+  background-color: black;
+  padding-bottom: 5px;
+}
+header ul li {
+  display: inline-block;
+  margin: 5px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+header a:hover {
+  background-color: lightblue;
+  color: white;
+}
+main {
+  background-color: lightblue;
+  background-size: cover;
+}
+.slider-img {
+  background-size: contain;
+  border: 2px solid lightblue;
+  display: inline-block;
+  height: 500px;
+  width: 1220px;
+  margin: 10px;
+}
+.image {
+  border: 2px solid lightblue;
+  width: 180px;
+  height: 200px;
+  margin: 20px;
+  position: relative;
+  column-fill: balance;
+  float: left;
+}
+.p-text {
+  padding-bottom: 30px;
+  padding-right: 10px;
+  column-count: 5;
+  column-fill: balance;
+  column-rule: 1px solid;
+  font-size: small;
+}
+.footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
